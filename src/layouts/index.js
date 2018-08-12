@@ -4,10 +4,9 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import Footer from '../components/footer'
-import './index.css'
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div style={{ margin: '0', padding: '0' }}>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
